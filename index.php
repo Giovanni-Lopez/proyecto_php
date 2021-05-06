@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
     <title>Inicio</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="alumnos.php" method="post">
     <label for="txtNombre">Nombre</label>
     <input type="text" name="txtNombre" id="txtNombre">
     <label for="txtEdad">Edad</label>
