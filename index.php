@@ -7,14 +7,22 @@
     <title>Inicio</title>
 </head>
 <body>
-    <form action="alumnos.php" method="post">
-    <label for="txtNombre">Nombre</label>
-    <input type="text" name="txtNombre" id="txtNombre">
-    <label for="txtEdad">Edad</label>
-    <input type="number" name="txtEdad" id="txtEdad">
-    <hr>
-    <input type="submit" value="Enviar">    
-    </form>
+<table align="center" border="3">
+    <tr>
+        <td>
+            <form action="alumnos.php" method="post">
+            <label for="txtNombre">Nombre :</label>
+            <input type="text" name="txtNombre" id="txtNombre">
+            <br><br>
+            <label for="txtEdad">Edad     :</label>
+            <input type="number" name="txtEdad" id="txtEdad">
+            <hr>
+            <input type="submit" value="Enviar">    
+            </form>
+        </td>
+    </tr>
+</table>
+    
 </body>
 </html>
 

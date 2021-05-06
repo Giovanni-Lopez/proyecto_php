@@ -11,6 +11,9 @@
     if(isset($_POST["txtNombre"])){
         $nombres = $_POST["txtNombre"];
         $edad = $_POST["txtEdad"];  
+
+        echo "Nombre: $nombres<br>";        
+        echo "Edad: $edad";
     }    
     ?>
 </body>
